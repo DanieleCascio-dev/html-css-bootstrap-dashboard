@@ -29,6 +29,15 @@
       href="css/dekstop.css"
       media="screen and (min-width: 992px)"
     />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="wrapper">
@@ -36,20 +45,18 @@
       <header class="header">
         <nav class="navbar navbar-expand-lg bg-light h-100">
           <div class="container-fluid">
-            <a class="navbar-brand logo" href="#"
+            <a class="navbar-brand logo m-0" href="#"
               ><img src="img/mobile-logo.png" alt=""
             /></a>
 
-            <div class="container-fluid m-0 w-75">
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Prova a cercare: Lezioni di Larvel"
-                  aria-label="Search"
-                />
-              </form>
-            </div>
+            <form class="d-flex flex-grow-1" role="search">
+              <input
+                class="form-control me-2 ms_bg-grey w-0 flex-grow-1"
+                type="search"
+                placeholder="Prova a cercare: Lezioni di Larvel"
+                aria-label="Search"
+              />
+            </form>
 
             <button
               class="navbar-toggler"
@@ -60,9 +67,9 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span><i class="fa-solid fa-bell"></i></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"

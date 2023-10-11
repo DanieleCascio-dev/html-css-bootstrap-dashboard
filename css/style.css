@@ -2,6 +2,10 @@
   --header-height: 80px;
   --menu-width: 100px;
   --m-header-hight: 180px;
+
+  /* color */
+  --bg-grey: #e5e5e5;
+  --bg-yellow-orange: #ff8f00;
 }
 
 /* RESET */
@@ -29,6 +33,14 @@ img {
 
 .logo {
   width: 50px;
+}
+
+.ms_bg-grey {
+  background-color: var(--bg-grey);
+}
+
+.ms_yellow-orange {
+  color: var(--bg-yellow-orange);
 }
 
 /* MAIN */
