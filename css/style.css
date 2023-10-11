@@ -43,6 +43,7 @@
 .main-content {
   height: 100%;
   width: calc(100% - var(--menu-width));
+  overflow-y: auto;
 
   /* debug */
   background-color: darkcyan;
