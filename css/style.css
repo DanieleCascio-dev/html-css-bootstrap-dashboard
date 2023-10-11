@@ -1,7 +1,7 @@
 :root {
   --header-height: 80px;
   --menu-width: 100px;
-  --m-header-hight: 200px;
+  --m-header-hight: 180px;
 }
 
 /* COMMON */
@@ -56,4 +56,13 @@
   /* debug */
   background-color: lightblue;
   min-height: var(--m-header-hight);
+}
+
+/* content */
+
+.content {
+  height: calc(100% - var(--m-header-hight));
+
+  /* debug */
+  background-color: blueviolet;
 }
