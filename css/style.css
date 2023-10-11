@@ -1,6 +1,7 @@
 :root {
   --header-height: 80px;
   --menu-width: 100px;
+  --m-header-hight: 200px;
 }
 
 /* COMMON */
@@ -47,4 +48,12 @@
 
   /* debug */
   background-color: darkcyan;
+}
+
+/* m-header */
+
+.m-header {
+  /* debug */
+  background-color: lightblue;
+  min-height: var(--m-header-hight);
 }
