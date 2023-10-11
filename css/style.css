@@ -18,7 +18,7 @@
   height: var(--header-height);
   width: 100%;
   /* debug */
-  background-color: lightgoldenrodyellow;
+  background-color: darkslategray;
 }
 
 /* MAIN */
@@ -37,4 +37,13 @@
 
   /* debug */
   background-color: lightskyblue;
+}
+
+/* Main content */
+.main-content {
+  height: 100%;
+  width: calc(100% - var(--menu-width));
+
+  /* debug */
+  background-color: darkcyan;
 }
