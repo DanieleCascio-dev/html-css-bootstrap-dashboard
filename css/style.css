@@ -4,6 +4,11 @@
   --m-header-hight: 180px;
 }
 
+/* RESET */
+img {
+  max-width: 100%;
+}
+
 /* COMMON */
 /* wrapper */
 
@@ -20,6 +25,10 @@
   width: 100%;
   /* debug */
   background-color: darkslategray;
+}
+
+.logo {
+  width: 50px;
 }
 
 /* MAIN */
