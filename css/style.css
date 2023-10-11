@@ -43,6 +43,9 @@ img {
   color: var(--bg-yellow-orange);
 }
 
+/* .ms_translate-y {
+  transform: translateY(50%);
+} */
 /* MAIN */
 .main {
   width: 100%;
