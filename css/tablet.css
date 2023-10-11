@@ -1,4 +1,6 @@
-/* Header */
-.header {
-  height: 60px;
+:root {
+  --header-height: 60px;
+  --menu-width: 80px;
 }
+
+/* Header */
