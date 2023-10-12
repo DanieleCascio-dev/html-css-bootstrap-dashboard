@@ -16,7 +16,7 @@ img {
 /* COMMON */
 /* wrapper */
 
-.wrapper {
+.ms_wrapper {
   height: 100vh;
   width: 100%;
   /* debug */
@@ -24,7 +24,7 @@ img {
 }
 
 /* HEADER */
-.header {
+.ms_header {
   height: var(--header-height);
   width: 100%;
   /* debug */
@@ -47,7 +47,7 @@ img {
   transform: translateY(50%);
 } */
 /* MAIN */
-.main {
+.ms_main {
   width: 100%;
   height: calc(100vh - var(--header-height));
 
@@ -56,7 +56,7 @@ img {
 }
 
 /* Menu */
-.menu {
+.ms_menu {
   height: 100%;
   width: var(--menu-width);
 
@@ -65,7 +65,7 @@ img {
 }
 
 /* Main content */
-.main-content {
+.ms_main-content {
   height: 100%;
   width: calc(100% - var(--menu-width));
   overflow-y: auto;
@@ -76,7 +76,7 @@ img {
 
 /* m-header */
 
-.m-header {
+.ms_main-header {
   /* debug */
   background-color: lightblue;
   min-height: var(--m-header-hight);
@@ -84,7 +84,7 @@ img {
 
 /* content */
 
-.content {
+.ms_content {
   height: calc(100% - var(--m-header-hight));
 
   /* debug */
