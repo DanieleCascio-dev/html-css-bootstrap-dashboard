@@ -1,6 +1,6 @@
 :root {
   --header-height: 80px;
-  --menu-width: 100px;
+  --menu-width: 60px;
   --m-header-hight: 180px;
 
   /* color */
@@ -17,6 +17,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* COMMON */
@@ -27,6 +28,18 @@ a {
   width: 100%;
   /* debug */
   background-color: lightblue;
+}
+
+.ms_yellow-orange {
+  color: var(--bg-yellow-orange);
+}
+
+.ms_bg-darkgray {
+  color: var(--bg-darkgray);
+}
+
+.ms_bg-white {
+  color: var(--bg-white);
 }
 
 /* HEADER */
@@ -52,20 +65,12 @@ a {
   background-color: var(--bg-grey);
 }
 
-.ms_yellow-orange {
-  color: var(--bg-yellow-orange);
-}
-
-.ms_bg-darkgray {
-  color: var(--bg-darkgray);
-}
 /* MAIN */
 .ms_main {
   width: 100%;
   height: calc(100vh - var(--header-height));
 
   /* debug */
-  background-color: lightgreen;
 }
 
 /* Menu */
@@ -74,7 +79,13 @@ a {
   width: var(--menu-width);
 
   /* debug */
-  background-color: lightskyblue;
+  background: url(../img/sidebar-bg.png);
+  background-position-y: -50px;
+  background-color: #051e34;
+}
+
+.ms_menu ul li {
+  padding-top: 0.8rem;
 }
 
 /* Main content */
