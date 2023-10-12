@@ -9,6 +9,7 @@
   --bg-darkgray: rgb(122, 122, 122);
   --bg-yellow-orange: #ff8f00;
   --bg-blue: #1b72e8;
+  --bg-blue-secondary: #165bba;
 }
 
 /* RESET */
@@ -113,6 +114,25 @@ a {
   border-radius: 5px;
 }
 
+.ms_label {
+  height: 20px;
+  width: 90px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: var(--bg-blue-secondary);
+  font-size: 0.8rem;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.ms_w-3 {
+  width: 30px;
+}
+
+.ms_w-6 {
+  width: 60px;
+}
 /* content */
 
 .ms_content {
