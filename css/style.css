@@ -8,6 +8,7 @@
   --bg-grey: #e5e5e5;
   --bg-darkgray: rgb(122, 122, 122);
   --bg-yellow-orange: #ff8f00;
+  --bg-blue: #1b72e8;
 }
 
 /* RESET */
@@ -102,8 +103,14 @@ a {
 
 .ms_main-header {
   /* debug */
-  background-color: lightblue;
+  background-color: var(--bg-blue);
   min-height: var(--m-header-hight);
+}
+
+.ms_plus-icon {
+  padding: 0.6rem;
+  border: 1px solid var(--bg-white);
+  border-radius: 5px;
 }
 
 /* content */
