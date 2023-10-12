@@ -193,7 +193,7 @@ table td button {
 }
 
 .card h2 {
-  border-bottom: 1px solid var(--bg-darkgray);
+  border-bottom: 1px solid var(--bg-grey);
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
