@@ -13,6 +13,7 @@
   --bg-red: #dc3545;
   --bg-blue: #1b72e8;
   --bg-blue-secondary: #165bba;
+  --link-color: #1472fd;
   --bg-green: #198754;
 }
 
@@ -32,9 +33,9 @@ a {
 .ms_wrapper {
   height: 100vh;
   width: 100%;
-  /* debug */
-  background-color: lightblue;
 }
+
+/* color */
 
 .ms_yellow-orange {
   color: var(--bg-yellow-orange);
@@ -52,11 +53,13 @@ a {
   color: var(--bg-white);
 }
 
+.ms_link-color {
+  color: var(--link-color);
+}
 /* HEADER */
 .ms_header {
   height: var(--header-height);
   width: 100%;
-  /* debug */
   background-color: var(--bg-white);
 }
 
@@ -79,8 +82,6 @@ a {
 .ms_main {
   width: 100%;
   height: calc(100vh - var(--header-height));
-
-  /* debug */
 }
 
 /* Menu */
@@ -88,7 +89,6 @@ a {
   height: 100%;
   width: var(--menu-width);
 
-  /* debug */
   background: url(../img/sidebar-bg.png);
   background-position-y: -50px;
   background-color: #051e34;
@@ -103,15 +103,10 @@ a {
   height: 100%;
   width: calc(100% - var(--menu-width));
   overflow-y: auto;
-
-  /* debug */
-  background-color: darkcyan;
 }
 
 /* m-header */
-
 .ms_main-header {
-  /* debug */
   background-color: var(--bg-blue);
   min-height: var(--m-header-hight);
 }
@@ -215,5 +210,20 @@ table td button {
 }
 
 .ms_border-b {
+  border-bottom: 1px solid var(--bg-grey);
+}
+
+.ms_border {
+  border: 1px solid var(--bg-grey);
+}
+
+/* Graph */
+
+.ms-graph {
+  font-size: 0.8rem;
+}
+
+.ms-graph ul {
+  border-top: 1px solid var(--bg-grey);
   border-bottom: 1px solid var(--bg-grey);
 }
