@@ -197,3 +197,23 @@ table td button {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
+
+/* Todo */
+
+.ms_todo-list {
+  border: 1px solid var(--bg-grey);
+  border-radius: 10px;
+  padding: 0.5rem 0.2rem;
+}
+
+.ms_todo-list label {
+  font-size: 0.8rem;
+}
+
+.ms_todo-list li {
+  padding: 0.3rem;
+}
+
+.ms_border-b {
+  border-bottom: 1px solid var(--bg-grey);
+}
