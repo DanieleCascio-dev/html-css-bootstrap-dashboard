@@ -6,10 +6,14 @@
   /* color */
   --bg-white: #fff;
   --bg-grey: #e5e5e5;
+  --bg-light-gray: #f7f7f7;
   --bg-darkgray: rgb(122, 122, 122);
   --bg-yellow-orange: #ff8f00;
+  --bg-yellow: #ffc107;
+  --bg-red: #dc3545;
   --bg-blue: #1b72e8;
   --bg-blue-secondary: #165bba;
+  --bg-green: #198754;
 }
 
 /* RESET */
@@ -36,8 +40,12 @@ a {
   color: var(--bg-yellow-orange);
 }
 
-.ms_bg-darkgray {
+.ms_darkgray {
   color: var(--bg-darkgray);
+}
+
+.ms_bg-l-gray {
+  background-color: var(--bg-light-gray);
 }
 
 .ms_bg-white {
@@ -137,4 +145,55 @@ a {
 
 .ms_content {
   height: calc(100% - var(--m-header-hight));
+}
+
+/* Table */
+
+table td img {
+  width: 20px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+table tr {
+  border-bottom: 1px solid var(--bg-light-gray);
+  margin-bottom: 1rem;
+}
+
+table td button {
+  text-decoration: none;
+  color: var(--bg-darkgray);
+  border: 1px solid var(--bg-darkgray);
+  background-color: var(--bg-white);
+}
+
+.ms_ticket {
+  color: var(--bg-white);
+  display: inline-block;
+  width: 4em;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 0.8rem;
+}
+
+.ms_bg-green {
+  background-color: var(--bg-green);
+}
+
+.ms_bg-yellow {
+  background-color: var(--bg-yellow);
+}
+
+.ms_bg-red {
+  background-color: var(--bg-red);
+}
+
+.card h2 {
+  border-bottom: 1px solid var(--bg-darkgray);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
